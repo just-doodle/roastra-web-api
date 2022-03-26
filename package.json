@@ -1,0 +1,35 @@
+{
+  "name": "roastra-web-api",
+  "version": "1.0.0",
+  "description": "A web-api for npm/roastra package!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-doodle/roastra-web-api.git"
+  },
+  "keywords": [
+    "roastra",
+    "roast",
+    "insult",
+    "web-api"
+  ],
+  "author": "Harry <harrytom2606@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/just-doodle/roastra-web-api/issues"
+  },
+  "homepage": "https://github.com/just-doodle/roastra-web-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "roastra": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
